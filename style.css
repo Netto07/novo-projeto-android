@@ -29,17 +29,20 @@ header {
 }
 header h1 {
     color: white;
-    font-size: 3em;
+    font-size: 40px;
     text-shadow: 2px 2px opx rgba(0, 0, 0, 0.511);
-    font-weight: bolder;
+    font-weight: normal;
     font-family: Arial, Helvetica, sans-serif;
-    
+
 }
 header p {
     font-family: Arial, verdana, Helvetica, sans-serif;
     color: white;
     padding-top:  30px;
     font-size: 1.2em;
+    margin: auto;
+    max-width: 600px;
+    padding-bottom: 50px;
     padding-left: 10px;
     padding-right: 10px;
     text-shadow: 2px 2px opx rgba(0, 0, 0, 0.511); 
@@ -66,7 +69,6 @@ nav > a:hover {
 main {
     padding: 30px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.458);
-    text-indent: 30px;
     text-align: justify;
     min-height: 300px;
     max-width: 1000px;
@@ -74,11 +76,13 @@ main {
     border-radius: 10px;
     margin-bottom:30px
 }
+
 main p {
    padding-bottom: 10px;
-    margin: 20px 0px;
+    margin: 15px 0px;
     line-height: 2em;
     font-size: 1em;
+    text-indent: 30px;
 }
 main strong {
     color: rgb(28, 162, 28);
@@ -98,16 +102,21 @@ main h1 {
     font-family: 'android';
     color: rgba(33, 229, 79, 0.885);
     padding-top: 20px;
+    font-size: 19px;
+
     
 }
 main h2 {
      font-family: 'android';
     color: green;
+    font-size: 19px;
     background-image: linear-gradient(to left,rgba(150, 224, 150, 0.032),rgb(10, 232, 10) );
 
 }
 main picture img.pequeno {
-    margin: auto;
+   width: auto;
+   
+   
 }
  div.v { 
     background-color: white;
@@ -124,10 +133,6 @@ div.v > iframe {
     left: 5%;
     width: 90%;
     height: 90%;
-}
-.i {
-    text-align: center;
-
 }
 aside {
     background-color: rgba(23, 140, 23, 0.302);
